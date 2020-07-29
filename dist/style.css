@@ -1,0 +1,32 @@
+#content{
+    background-color: rgb(243, 243, 243);
+    border-radius: 5%;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    display:grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 500px 2fr 1fr;
+    
+}
+
+header{
+    text-align: center;
+    font-size: 3rem;
+}
+
+div{
+    /* margin-top: 1rem; */
+    /* margin-left: 10px; */
+    /* text-align: left; */
+    /* width: 500px; */
+
+}
+
+img{
+    text-align: right;
+    width: 500px;
+    height: 300px;
+}
