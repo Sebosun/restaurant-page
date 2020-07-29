@@ -1,1 +1,3 @@
-console.log('Test dupy');
+import generate from './createElements';
+
+generate();
