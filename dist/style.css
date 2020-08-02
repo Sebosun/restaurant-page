@@ -1,14 +1,16 @@
-#content{
+body{
+    
+}
+
+#content-container{
     background-color: rgb(243, 243, 243);
     border-radius: 5%;
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     margin: auto;
     padding: 0;
     text-align: center;
-    display:grid;
-    /* grid-template-rows: 1fr 1fr 1fr; */
-    grid-template-columns: 500px 2fr 1fr;
+    /* display: flex; */
     
 }
 
@@ -25,8 +27,27 @@ div{
 
 }
 
+#tabs{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(199, 195, 195);
+    border: black solid 1px;
+    /* border-radius: 10%; */
+    margin-bottom: 10px;
+}
+
+#tabs > div{
+    color: gray;
+    margin-right: 20px;
+    
+
+}
+
+#tabs > div:hover{
+    color: blueviolet;
+}
+
 img{
-    text-align: right;
     width: 500px;
     height: 300px;
 }
