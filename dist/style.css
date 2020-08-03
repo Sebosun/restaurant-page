@@ -1,12 +1,12 @@
 body{
-    
+    margin-top: 10rem;
 }
 
 #content-container{
     background-color: rgb(243, 243, 243);
     border-radius: 5%;
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
     margin: auto;
     padding: 0;
     text-align: center;
@@ -19,13 +19,6 @@ header{
     font-size: 3rem;
 }
 
-div{
-    /* margin-top: 1rem; */
-    /* margin-left: 10px; */
-    /* text-align: left; */
-    /* width: 500px; */
-
-}
 
 #tabs{
     display: flex;
@@ -50,4 +43,7 @@ div{
 img{
     width: 500px;
     height: 300px;
+}
+
+ul{
 }

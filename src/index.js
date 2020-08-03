@@ -1,6 +1,7 @@
 import generate from './createElements';
 import generateHome from './createElements';
 import generateMenu from './menu';
+import generateContact from './contact';
 
 const tabsSelector = document.querySelectorAll('#tabs');
 
@@ -28,7 +29,8 @@ tabsSelector.forEach((tab) => {
 
         }
         else if (e.target.id === 'contact'){
-            console.log('TODO')
+            clearContent();
+            generateContact();
         }
     })
 });
